@@ -17,10 +17,6 @@ function adicionar() {
     } else {
         alert('digite uma quantidade válida!');
     }
-
-
-    console.log(`produto:${produto}, nome do produto: ${nomeProduto}, valor do Produto: ${valorDoProduto}, quantidade ${quantidadeDoProduto}, subtotal ${subtotal}.`);
-    //atualizar o nosso grande total
   }
 
   function limpar() {
